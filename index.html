@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Concientización sobre el Vape - UNIBE</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #0077b6;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #023e8a;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #0077b6;
+    }
+
+    .myths-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .myth {
+      background-color: white;
+      border-left: 5px solid #d62828;
+      padding: 15px;
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .reality {
+      background-color: white;
+      border-left: 5px solid #2a9d8f;
+      padding: 15px;
+      flex: 1;
+      min-width: 250px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 315px;
+      margin-top: 20px;
+      border: none;
+    }
+
+    form {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+
+    input, textarea {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #0077b6;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #023e8a;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>UNIBE Libre de Vapeo</h1>
+    <p>Educación y prevención sobre el uso de vape entre universitarios</p>
+  </header>
+
+  <nav>
+    <a href="#riesgos">Riesgos</a>
+    <a href="#mitos">Mitos vs Realidades</a>
+    <a href="#video">Video</a>
+    <a href="#compromiso">Tu Compromiso</a>
+  </nav>
+
+  <section id="riesgos">
+    <h2>¿Por qué evitar el vapeo?</h2>
+    <ul>
+      <li>Puede causar daño pulmonar irreversible.</li>
+      <li>Algunos líquidos contienen nicotina adictiva.</li>
+      <li>Aumenta el riesgo de enfermedades cardiovasculares.</li>
+      <li>No es seguro como método de cesación del tabaco.</li>
+    </ul>
+  </section>
+
+  <section id="mitos">
+    <h2>Mitos vs Realidades</h2>
+    <div class="myths-container">
+      <div class="myth">
+        <strong>Mito:</strong> El vapeo no hace daño porque no tiene humo.
+      </div>
+      <div class="reality">
+        <strong>Realidad:</strong> Aunque no tiene humo, los químicos del aerosol pueden dañar tus pulmones.
+      </div>
+      <div class="myth">
+        <strong>Mito:</strong> Es solo vapor de agua.
+      </div>
+      <div class="reality">
+        <strong>Realidad:</strong> Contiene metales pesados, nicotina y químicos tóxicos.
+      </div>
+      <div class="myth">
+        <strong>Mito:</strong> Es seguro porque muchos lo usan.
+      </div>
+      <div class="reality">
+        <strong>Realidad:</strong> Popular no significa seguro. El uso está asociado a efectos adversos serios.
+      </div>
+    </div>
+  </section>
+
+  <section id="video">
+    <h2>Video informativo</h2>
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID_AQUI" title="Concientización sobre el vapeo"></iframe>
+    <p style="text-align:center;">*Reemplaza el video por uno educativo o de una campaña del Ministerio de Salud.</p>
+  </section>
+
+  <section id="compromiso">
+    <h2>Comparte tu opinión o compromiso</h2>
+    <form>
+      <label for="nombre">Nombre (opcional):</label>
+      <input type="text" id="nombre" name="nombre" />
+
+      <label for="mensaje">¿Qué opinas sobre el uso del vape en UNIBE? ¿Estás dispuesto(a) a ser parte del cambio?</label>
+      <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Iniciativa estudiantil de UNIBE - Facultad de Ciencias de la Salud</p>
+    <p>&copy; 2025 Conciencia Vape UNIBE</p>
+  </footer>
+</body>
+</html>
